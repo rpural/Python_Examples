@@ -50,6 +50,7 @@ def int2text(value, _lvl=0):
 
 
 if __name__ == "__main__":
+	print("Enter 0 to exit.")
     while(True):
         source = int(input("Enter a number: "))
 
