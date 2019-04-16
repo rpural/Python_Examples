@@ -54,3 +54,6 @@ if __name__ == "__main__":
         source = int(input("Enter a number: "))
 
         print(int2text(source))
+
+	if source == 0:
+		exit(0)
