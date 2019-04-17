@@ -3,18 +3,18 @@
 
 def int2text(value, _lvl=0):
     digits = ["", "one", "two",
-					"three", "four", "five",
-					"six", "seven", "eight",
-					"nine"]
+			"three", "four", "five",
+			"six", "seven", "eight",
+			"nine"]
 
     teens = ["ten", "eleven", "twelve",
-					"thirteen", "fourteen", "fifteen",
-					"sixteen", "seventeen",
-					"eighteen", "nineteen"]
+			"thirteen", "fourteen", "fifteen",
+			"sixteen", "seventeen",
+			"eighteen", "nineteen"]
 
     tens =["", "", "twenty", "thirty",
-				"forty", "fifty", "sixty",
-				"seventy", "eighty", "ninety"]
+			"forty", "fifty", "sixty",
+			"seventy", "eighty", "ninety"]
 
     groupings = ["", "thousand", "million", "billion", "trillion",
                 "quadrillion", "quintrillion", "sextillion", "septillion",
@@ -50,11 +50,11 @@ def int2text(value, _lvl=0):
 
 
 if __name__ == "__main__":
-	print("Enter 0 to exit.")
-    while(True):
+    print("Enter 0 to exit.")
+    while True:
         source = int(input("Enter a number: "))
 
         print(int2text(source))
 
-	if source == 0:
-		exit(0)
+        if source == 0:
+            exit(0)
